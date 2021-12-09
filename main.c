@@ -22,7 +22,7 @@ MODULE_DESCRIPTION("INA219 Sensor Kernel Driver");
 
 #define I2C_BUS_USED       1               /* The I2C Bus available on the raspberry */
 #define INA219_SENSOR_NAME       "INA219"        /* Device and Driver Name */
-#define INA219_SLAVE_ADDRESS    0x40            /* BMP280 I2C address */
+#define INA219_SLAVE_ADDRESS    0x40            /* INA219 I2C address */
 
 #define CALIBRATION_VALUE 0x1064
 
